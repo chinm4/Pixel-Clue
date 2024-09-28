@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SuperPixel';
+  src: url('./fonts/SuperPixel-m2L8j.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  @apply text-sm;
+  @apply bg-gray-900;
+  @apply text-gray-500;
+}
+
+.title {
+  font-family: 'SuperPixel';
+}
